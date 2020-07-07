@@ -1,2 +1,2 @@
-# robot-motion-player
+# glURDF
 robot motion player using OpenGL and URDF
