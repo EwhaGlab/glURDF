@@ -39,12 +39,12 @@ float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
 
 // file name
-// const string delimiter1 = "://fetch_description/";
-// const string delimiter2 = "../../resources/fetch_description/";
-// const string urdf_file_path = "../../resources/fetch_description/urdf/fetch.urdf";
-const string delimiter1 = "://talos_data/";
-const string delimiter2 = "../../resources/talos_data/";
-const string urdf_file_path = "../../resources/talos_data/urdf/talos_full.urdf";
+const string delimiter1 = "://fetch_description/";
+const string delimiter2 = "../../resources/fetch_description/";
+const string urdf_file_path = "../../resources/fetch_description/urdf/fetch.urdf";
+// const string delimiter1 = "://talos_data/";
+// const string delimiter2 = "../../resources/talos_data/";
+// const string urdf_file_path = "../../resources/talos_data/urdf/talos_full.urdf";
 
 
 // timing
@@ -386,7 +386,7 @@ void renderScene(const Shader &shader)
     glEnable(GL_CULL_FACE);
 
     // render robot
-    for (int i = 0; i < meshes.size()-1; i++)
+    for (int i = 0; i < meshes.size(); i++)
     {          
         glm::mat4 transmat = init;
         transmat = glm::scale(transmat, meshes[i]->scale);
