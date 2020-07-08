@@ -1,4 +1,6 @@
 # glURDF
+*Tested on both **Ubuntu 16.04** and **18.04**.*
+
 <img src="./img/demo_talos.gif" width="600">
 
 glURDF is a graphical interface for visualizing robot model using URDF and OpenGL.
@@ -6,8 +8,6 @@ This repository is based on [learnopengl](https://learnopengl.com), extended to 
 glURDF supports not only visualizing the robot model but also animating the robot motion with given robot configurations.
 
 Currently, the robot description files given in this repository is from [fetch_ros](https://github.com/fetchrobotics/fetch_ros.git), and [talos-data](https://github.com/stack-of-tasks/talos-data.git).
-
-*Tested on both **Ubuntu 16.04** and **18.04**.*
 
 ## Dependencies
 glURDF depends on multiple packages and libraries. Please follow the procedure below to make sure you have installed all the dependencies.
