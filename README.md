@@ -51,8 +51,8 @@ glURDF depends on multiple packages and libraries. Please follow the procedure b
 To compile, it is recommended to create a separate build directory:
 ```sh
 mkdir build && cd build
-cmake [OPTIONS] ..
-make install
+cmake ..
+make 
 ```
 
 ## Run
