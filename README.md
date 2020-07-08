@@ -76,7 +76,7 @@ cd build/bin
 ./demo_talos_say_hi
 ./demo_fe_say_hi
 ```
-<img src="./img/demo_talos_say_hi.gif" width="460"> <img src="./img/demo_fetch_say_hi.gif" width="460">
+<img src="./img/demo_talos_say_hi.gif" width="400"> <img src="./img/demo_fetch_say_hi.gif" width="400">
 
 Some keyboard inputs are available:
 - **WASD**: camera movement
