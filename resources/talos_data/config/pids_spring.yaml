@@ -1,0 +1,54 @@
+gains:
+  leg_left_1_joint:  &leg_1_gains {p:  5000, d: 20, i:  5, i_clamp:   7, torque_clamp: 60}
+  leg_left_2_joint:  &leg_2_gains {p:  5000, d: 20, i:  5, i_clamp:   14, torque_clamp: 160}
+  leg_left_3_joint:  &leg_3_gains {p:  5000, d: 20, i:  5, i_clamp:   14, torque_clamp: 160}
+  leg_left_4_joint:  &leg_4_gains {p:  5000, d: 20, i:  5, i_clamp:   25, torque_clamp: 300}
+  leg_left_5_joint:  &leg_5_gains {p:  5000, d: 20, i:  5, i_clamp:   14, torque_clamp: 160}
+  leg_left_6_joint:  &leg_6_gains {p:  5000, d: 20, i:  5, i_clamp:   9, torque_clamp: 100}
+  leg_right_1_joint: *leg_1_gains
+  leg_right_2_joint: *leg_2_gains
+  leg_right_3_joint: *leg_3_gains
+  leg_right_4_joint: *leg_4_gains
+  leg_right_5_joint: *leg_5_gains
+  leg_right_6_joint: *leg_6_gains
+
+
+  head_1_joint:                   {p: 300,  d: 0.1, i: 1, i_clamp: 5, torque_clamp: 8}
+  head_2_joint:                   {p: 300,  d: 0.1, i: 1, i_clamp: 1.5, torque_clamp: 8}
+
+  torso_1_joint:                  {p: 10000, d: 10, i: 1, i_clamp: 10, torque_clamp: 100}
+  torso_2_joint:                  {p: 10000, d: 10, i: 1, i_clamp: 10, torque_clamp: 100}
+
+  arm_right_1_joint: &arm_1_gains {p: 10000, d: 0, i: 0,  i_clamp: 14, torque_clamp: 150}
+  arm_right_2_joint: &arm_2_gains {p: 10000, d: 0, i: 0,  i_clamp: 14, torque_clamp: 150}
+  arm_right_3_joint: &arm_3_gains {p: 5000, d: 0, i: 0,  i_clamp: 9, torque_clamp: 100}
+  arm_right_4_joint: &arm_4_gains {p: 10000, d: 0, i: 0,  i_clamp: 9, torque_clamp: 100}
+  arm_right_5_joint: &arm_5_gains {p: 3000,  d: 0, i: 0, i_clamp: 5, torque_clamp: 50}
+  arm_right_6_joint: &arm_6_gains {p: 3000,  d: 0, i: 0, i_clamp: 3, torque_clamp: 30}
+  arm_right_7_joint: &arm_7_gains {p: 3000,  d: 0, i: 0, i_clamp: 3, torque_clamp: 30}
+  arm_left_1_joint:  *arm_1_gains
+  arm_left_2_joint:  *arm_2_gains
+  arm_left_3_joint:  *arm_3_gains
+  arm_left_4_joint:  *arm_4_gains
+  arm_left_5_joint:  *arm_5_gains
+  arm_left_6_joint:  *arm_6_gains
+  arm_left_7_joint:  *arm_7_gains
+
+  gripper_left_joint:  {p: 1000, d: 0, i: 0, i_clamp: 10, torque_clamp: 100}
+  gripper_right_joint: {p: 1000, d: 0, i: 0, i_clamp: 10, torque_clamp: 100}
+
+  #https://answers.ros.org/question/283537/how-to-do-mimic-joints-that-work-in-gazebo/
+  gripperleft_inner_double_joint: &gripper_gains {p: 20, d: 0.0, i: 0.0, i_clamp: 0.2, antiwindup: false}
+  gripper_left_fingertip_1_joint: *gripper_gains
+  gripper_left_fingertip_2_joint: *gripper_gains
+  gripper_left_motor_single_joint: *gripper_gains
+  gripper_left_fingertip_3_joint: *gripper_gains
+  gripper_left_inner_single_joint: *gripper_gains
+  gripper_left_inner_double_joint: *gripper_gains
+
+  gripper_right_inner_double_joint: *gripper_gains
+  gripper_right_fingertip_1_joint: *gripper_gains
+  gripper_right_fingertip_2_joint: *gripper_gains
+  gripper_right_motor_single_joint: *gripper_gains
+  gripper_right_fingertip_3_joint: *gripper_gains
+  gripper_right_inner_single_joint: *gripper_gains

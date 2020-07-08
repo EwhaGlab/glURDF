@@ -1,0 +1,61 @@
+joint_limits:
+  torso_1_joint:
+    has_velocity_limits: true
+    max_velocity: &max_torso_vel 1.0
+  torso_2_joint:
+    has_velocity_limits: true
+    max_velocity: *max_torso_vel
+
+  head_1_joint:
+    has_velocity_limits: true
+    max_velocity: &max_head_vel 3.0
+  head_2_joint:
+    has_velocity_limits: true
+    max_velocity: *max_head_vel
+
+  arm_right_1_joint:
+    has_velocity_limits: true
+    max_velocity: &max_arm_vel 1.5
+  arm_right_2_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_right_3_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_right_4_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_right_5_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_right_6_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_right_7_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+
+  arm_left_1_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_left_2_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_left_3_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_left_4_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_left_5_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_left_6_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+  arm_left_7_joint:
+    has_velocity_limits: true
+    max_velocity: *max_arm_vel
+
+  # Hands and legs keep the default values from URDF
+

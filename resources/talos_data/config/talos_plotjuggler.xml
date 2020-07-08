@@ -1,0 +1,1329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+ <tabbed_widget name="Main Window" parent="main_window">
+  <plotmatrix rows="4" columns="2" tab_name="leg_1">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.210092" top="0.210042" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_joint_absolute_encoder_position" R="222" B="18" G="15"/>
+    <curve name="/introspection_data/leg_left_1_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/leg_left_1_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-7.223535" top="6.144435" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_joint_effort" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-9.118346" top="9.219244" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_joint_torque_sensor" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.200791" top="0.197833" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_joint_velocity" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.210084" top="0.210681" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/leg_right_1_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/leg_right_1_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-6.855131" top="5.800781" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-9.687184" top="9.030818" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.210331" top="0.207907" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_joint_velocity" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_2">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.105106" top="0.105582" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/leg_left_2_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/leg_left_2_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-2.849942" top="6.792502" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_joint_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-7.000271" top="14.687718" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.106640" top="0.101505" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_joint_velocity" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.105089" top="0.105133" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/leg_right_2_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/leg_right_2_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-4.179279" top="4.894359" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_joint_effort" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-15.954158" top="5.764051" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_joint_torque_sensor" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.101588" top="0.108101" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_joint_velocity" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_3">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-1.025058" top="0.025047" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/leg_left_3_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/leg_left_3_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-13.065029" top="14.094239" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-26.990174" top="3.755434" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.476008" top="0.466914" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_joint_velocity" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-1.025574" top="0.025357" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/leg_right_3_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/leg_right_3_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-13.392454" top="14.218084" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_joint_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-23.474300" top="5.716509" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.474981" top="0.476844" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_joint_velocity" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_4">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.039630" top="2.039519" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/leg_left_4_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/leg_left_4_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-21.076500" top="20.566500" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_joint_effort" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-13.455188" top="23.347602" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_joint_torque_sensor" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.913155" top="0.917798" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_joint_velocity" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.041008" top="2.040532" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/leg_right_4_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/leg_right_4_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-20.941125" top="21.316125" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-10.443768" top="27.285391" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.935422" top="0.948018" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_joint_velocity" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_5">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-1.025113" top="0.025016" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/leg_left_5_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/leg_left_5_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-12.191614" top="13.910734" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_joint_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-3.735298" top="5.085135" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.468965" top="0.463100" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_joint_velocity" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-1.025797" top="0.025040" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/leg_right_5_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/leg_right_5_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-12.013482" top="13.732602" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_joint_effort" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-3.378772" top="5.999879" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_joint_torque_sensor" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.466734" top="0.464493" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_joint_velocity" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_6">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.105101" top="0.105023" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/leg_left_6_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/leg_left_6_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-2.662160" top="2.329519" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-2.156611" top="1.306831" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.098471" top="0.097277" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_joint_velocity" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.105135" top="0.105172" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/leg_right_6_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/leg_right_6_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-2.813060" top="2.695250" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_joint_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-1.851111" top="1.098165" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.095958" top="0.096169" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_joint_velocity" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="6" columns="2" tab_name="leg_temp">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="28.598165" top="29.102942" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_motor_temperature" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="24.310938" top="24.634361" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_motor_temperature" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="24.352010" top="25.529911" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_motor_temperature" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="28.497856" top="30.350740" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_motor_temperature" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range right="437.423965" bottom="25.754141" top="26.700022" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_motor_temperature" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range right="437.423965" bottom="22.299886" top="22.463653" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_motor_temperature" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="28.169366" top="28.620935" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_motor_temperature" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="24.783593" top="25.132760" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_motor_temperature" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="25.362480" top="26.798548" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_motor_temperature" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="29.598418" top="31.658205" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_motor_temperature" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range right="437.423965" bottom="27.070701" top="27.954252" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_motor_temperature" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range right="437.423965" bottom="22.651140" top="22.837042" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_motor_temperature" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="7" columns="2" tab_name="arm_pos">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.515683" top="0.115464" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_1_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_left_1_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_1_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="0.484863" top="1.118663" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_2_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_left_2_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_left_2_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-0.315093" top="0.315589" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_3_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/arm_left_3_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_3_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-1.525029" top="-0.474648" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_4_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_left_4_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_4_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range right="437.423965" bottom="-0.630052" top="0.630620" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_5_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_left_5_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_left_5_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range right="437.423965" bottom="-0.318038" top="0.315207" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_6_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/arm_left_6_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_6_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range right="437.423965" bottom="-0.316489" top="0.316106" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_7_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_left_7_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_7_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.116295" top="0.515091" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_1_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_1_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_right_1_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-1.115057" top="-0.484582" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_2_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_2_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_2_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-0.315048" top="0.315087" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_3_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_right_3_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_3_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-1.525037" top="-0.474596" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_4_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_4_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_right_4_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range right="437.423965" bottom="-0.630036" top="0.630055" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_5_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_5_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_5_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range right="437.423965" bottom="-0.315114" top="0.315138" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_6_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_right_6_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_6_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range right="437.423965" bottom="-0.315094" top="0.315067" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_7_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_7_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_right_7_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="7" columns="2" tab_name="arm_effort">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-10.180131" top="13.618371" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_1_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-8.280617" top="13.166536" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_2_joint_effort" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-5.657479" top="7.549369" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_3_joint_effort" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-7.771475" top="8.360525" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_4_joint_effort" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range right="437.423965" bottom="-4.440800" top="5.441800" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_5_joint_effort" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range right="437.423965" bottom="-2.075726" top="2.320256" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_6_joint_effort" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_left_6_motor_effort" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range right="437.423965" bottom="-2.470679" top="1.499969" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_7_joint_effort" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_left_7_motor_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-9.602756" top="13.696976" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_1_joint_effort" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-10.730645" top="13.388495" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_2_joint_effort" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-5.274500" top="7.220500" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_3_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-8.783425" top="9.084425" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_4_joint_effort" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range right="437.423965" bottom="-4.599319" top="5.389069" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_5_joint_effort" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range right="437.423965" bottom="-1.895293" top="1.769323" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_6_joint_effort" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_6_motor_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range right="437.423965" bottom="-1.843793" top="1.940123" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_7_joint_effort" R="0" B="128" G="0"/>
+    <curve name="/introspection_data/arm_right_7_motor_effort" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="arm_torque">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-7.123202" top="8.819966" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_1_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-0.091127" top="32.609113" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_2_joint_torque_sensor" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="1.132165" top="13.033079" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_3_joint_torque_sensor" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-13.688265" top="2.453076" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_4_joint_torque_sensor" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-9.292502" top="5.532310" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_1_joint_torque_sensor" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-27.349070" top="-7.201840" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_2_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-13.363645" top="1.236103" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_3_joint_torque_sensor" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-14.415256" top="-0.500100" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_4_joint_torque_sensor" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="4"/>
+ </tabbed_widget>
+ <tabbed_widget name="Main Window" parent="main_window">
+  <plotmatrix rows="4" columns="2" tab_name="leg_1">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.210092" top="0.210042" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_joint_absolute_encoder_position" R="222" B="18" G="15"/>
+    <curve name="/introspection_data/leg_left_1_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/leg_left_1_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-7.223535" top="6.144435" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_joint_effort" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-9.118346" top="9.219244" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_joint_torque_sensor" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.200791" top="0.197833" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_joint_velocity" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.210084" top="0.210681" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/leg_right_1_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/leg_right_1_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-6.855131" top="5.800781" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-9.687184" top="9.030818" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.210331" top="0.207907" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_joint_velocity" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_2">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.105106" top="0.105582" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/leg_left_2_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/leg_left_2_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-2.849942" top="6.792502" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_joint_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-7.000271" top="14.687718" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.106640" top="0.101505" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_joint_velocity" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.105089" top="0.105133" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/leg_right_2_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/leg_right_2_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-4.179279" top="4.894359" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_joint_effort" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-15.954158" top="5.764051" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_joint_torque_sensor" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.101588" top="0.108101" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_joint_velocity" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_3">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-1.025058" top="0.025047" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/leg_left_3_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/leg_left_3_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-13.065029" top="14.094239" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-26.990174" top="3.755434" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.476008" top="0.466914" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_joint_velocity" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-1.025574" top="0.025357" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/leg_right_3_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/leg_right_3_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-13.392454" top="14.218084" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_joint_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-23.474300" top="5.716509" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.474981" top="0.476844" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_joint_velocity" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_4">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.039630" top="2.039519" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/leg_left_4_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/leg_left_4_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-21.076500" top="20.566500" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_joint_effort" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-13.455188" top="23.347602" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_joint_torque_sensor" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.913155" top="0.917798" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_joint_velocity" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.041008" top="2.040532" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/leg_right_4_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/leg_right_4_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-20.941125" top="21.316125" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-10.443768" top="27.285391" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.935422" top="0.948018" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_joint_velocity" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_5">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-1.025113" top="0.025016" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/leg_left_5_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/leg_left_5_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-12.191614" top="13.910734" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_joint_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-3.735298" top="5.085135" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.468965" top="0.463100" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_joint_velocity" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-1.025797" top="0.025040" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/leg_right_5_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/leg_right_5_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-12.013482" top="13.732602" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_joint_effort" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-3.378772" top="5.999879" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_joint_torque_sensor" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.466734" top="0.464493" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_joint_velocity" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="leg_6">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.105101" top="0.105023" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/leg_left_6_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/leg_left_6_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-2.662160" top="2.329519" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-2.156611" top="1.306831" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-0.098471" top="0.097277" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_joint_velocity" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.105135" top="0.105172" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/leg_right_6_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/leg_right_6_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-2.813060" top="2.695250" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_joint_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-1.851111" top="1.098165" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-0.095958" top="0.096169" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_joint_velocity" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="6" columns="2" tab_name="leg_temp">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="28.598165" top="29.102942" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_1_motor_temperature" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="24.310938" top="24.634361" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_2_motor_temperature" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="24.352010" top="25.529911" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_3_motor_temperature" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="28.497856" top="30.350740" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_4_motor_temperature" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range right="437.423965" bottom="25.754141" top="26.700022" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_5_motor_temperature" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range right="437.423965" bottom="22.299886" top="22.463653" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_left_6_motor_temperature" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="28.169366" top="28.620935" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_1_motor_temperature" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="24.783593" top="25.132760" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_2_motor_temperature" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="25.362480" top="26.798548" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_3_motor_temperature" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="29.598418" top="31.658205" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_4_motor_temperature" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range right="437.423965" bottom="27.070701" top="27.954252" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_5_motor_temperature" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range right="437.423965" bottom="22.651140" top="22.837042" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/leg_right_6_motor_temperature" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="7" columns="2" tab_name="arm_pos">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-0.515683" top="0.115464" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_1_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_left_1_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_1_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="0.484863" top="1.118663" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_2_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_left_2_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_left_2_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-0.315093" top="0.315589" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_3_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/arm_left_3_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_3_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-1.525029" top="-0.474648" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_4_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_left_4_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_4_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range right="437.423965" bottom="-0.630052" top="0.630620" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_5_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_left_5_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_left_5_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range right="437.423965" bottom="-0.318038" top="0.315207" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_6_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/arm_left_6_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_6_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range right="437.423965" bottom="-0.316489" top="0.316106" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_7_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_left_7_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_left_7_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-0.116295" top="0.515091" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_1_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_1_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_right_1_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-1.115057" top="-0.484582" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_2_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_2_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_2_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-0.315048" top="0.315087" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_3_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_right_3_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_3_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-1.525037" top="-0.474596" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_4_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_4_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_right_4_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range right="437.423965" bottom="-0.630036" top="0.630055" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_5_joint_absolute_encoder_position" R="255" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_5_joint_position" R="0" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_5_joint_position_command" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range right="437.423965" bottom="-0.315114" top="0.315138" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_6_joint_absolute_encoder_position" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_right_6_joint_position" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_6_joint_position_command" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range right="437.423965" bottom="-0.315094" top="0.315067" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_7_joint_absolute_encoder_position" R="128" B="0" G="0"/>
+    <curve name="/introspection_data/arm_right_7_joint_position" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_right_7_joint_position_command" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="7" columns="2" tab_name="arm_effort">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-10.180131" top="13.618371" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_1_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-8.280617" top="13.166536" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_2_joint_effort" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="-5.657479" top="7.549369" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_3_joint_effort" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-7.771475" top="8.360525" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_4_joint_effort" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="0">
+    <range right="437.423965" bottom="-4.440800" top="5.441800" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_5_joint_effort" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="0">
+    <range right="437.423965" bottom="-2.075726" top="2.320256" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_6_joint_effort" R="0" B="128" G="128"/>
+    <curve name="/introspection_data/arm_left_6_motor_effort" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="0">
+    <range right="437.423965" bottom="-2.470679" top="1.499969" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_7_joint_effort" R="160" B="164" G="160"/>
+    <curve name="/introspection_data/arm_left_7_motor_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-9.602756" top="13.696976" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_1_joint_effort" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-10.730645" top="13.388495" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_2_joint_effort" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-5.274500" top="7.220500" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_3_joint_effort" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-8.783425" top="9.084425" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_4_joint_effort" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="4" col="1">
+    <range right="437.423965" bottom="-4.599319" top="5.389069" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_5_joint_effort" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="5" col="1">
+    <range right="437.423965" bottom="-1.895293" top="1.769323" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_6_joint_effort" R="255" B="255" G="0"/>
+    <curve name="/introspection_data/arm_right_6_motor_effort" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="6" col="1">
+    <range right="437.423965" bottom="-1.843793" top="1.940123" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_7_joint_effort" R="0" B="128" G="0"/>
+    <curve name="/introspection_data/arm_right_7_motor_effort" R="0" B="128" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <plotmatrix rows="4" columns="2" tab_name="arm_torque">
+   <plot row="0" col="0">
+    <range right="437.423965" bottom="-7.123202" top="8.819966" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_1_joint_torque_sensor" R="0" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="0">
+    <range right="437.423965" bottom="-0.091127" top="32.609113" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_2_joint_torque_sensor" R="255" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="0">
+    <range right="437.423965" bottom="1.132165" top="13.033079" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_3_joint_torque_sensor" R="255" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="0">
+    <range right="437.423965" bottom="-13.688265" top="2.453076" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_left_4_joint_torque_sensor" R="0" B="128" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="0" col="1">
+    <range right="437.423965" bottom="-9.292502" top="5.532310" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_1_joint_torque_sensor" R="160" B="164" G="160"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="1" col="1">
+    <range right="437.423965" bottom="-27.349070" top="-7.201840" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_2_joint_torque_sensor" R="128" B="0" G="128"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="2" col="1">
+    <range right="437.423965" bottom="-13.363645" top="1.236103" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_3_joint_torque_sensor" R="128" B="0" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+   <plot row="3" col="1">
+    <range right="437.423965" bottom="-14.415256" top="-0.500100" left="0.000000"/>
+    <limitY/>
+    <curve name="/introspection_data/arm_right_4_joint_torque_sensor" R="0" B="255" G="0"/>
+    <transform value="noTransform"/>
+   </plot>
+  </plotmatrix>
+  <currentPlotMatrix index="4"/>
+ </tabbed_widget>
+ <use_relative_time_offset enabled="1"/>
+ <Plugins>
+  <DataLoad_CSV>
+   <default time_axis=""/>
+  </DataLoad_CSV>
+  <DataLoad_ROS_bags>
+   <selected_topics list="/introspection_data"/>
+  </DataLoad_ROS_bags>
+  <ROS_Topic_Streamer>
+   <selected_topics list=""/>
+  </ROS_Topic_Streamer>
+  <RosoutPublisherROS/>
+  <TopicPublisherROS/>
+ </Plugins>
+ <previouslyLoadedDatafile filename="/home/user/2018-09-23-18-06-22.bag"/>
+</root>
+

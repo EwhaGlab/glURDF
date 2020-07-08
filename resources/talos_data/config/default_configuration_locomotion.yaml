@@ -1,0 +1,54 @@
+zeros:
+  torso_1_joint:                      0.0
+  torso_2_joint:                      0.0
+  head_1_joint:                       0.0
+  head_2_joint:                       0.0
+  arm_left_1_joint:                     0.3
+  arm_left_2_joint:                     0.4
+  arm_left_3_joint:                     -0.5
+  arm_left_4_joint:                     -1.5
+  arm_left_5_joint:                   0.0
+  arm_left_6_joint:                   0.0
+  arm_left_7_joint:                   0.0
+  arm_right_1_joint:                    -0.3
+  arm_right_2_joint:                    -0.4
+  arm_right_3_joint:                    0.5
+  arm_right_4_joint:                    -1.5
+  arm_right_5_joint:                  0.0
+  arm_right_6_joint:                  0.0
+  arm_right_7_joint:                  0.0
+  gripper_left_joint:                   -0.4
+  gripper_left_inner_double_joint:    0.0
+  gripper_left_fingertip_1_joint:     0.0
+  gripper_left_fingertip_2_joint:     0.0
+  gripper_left_motor_single_joint:    0.0
+  gripper_left_inner_single_joint:    0.0
+  gripper_left_fingertip_3_joint:     0.0
+  gripper_right_joint:                  -0.4
+  gripper_right_inner_double_joint:   0.0
+  gripper_right_fingertip_1_joint:    0.0
+  gripper_right_fingertip_2_joint:    0.0
+  gripper_right_motor_single_joint:   0.0
+  gripper_right_inner_single_joint:   0.0
+  gripper_right_fingertip_3_joint:    0.0
+  leg_left_1_joint:                   0.0
+  leg_left_2_joint:                   0.0
+  leg_left_3_joint:                     -0.4
+  leg_left_4_joint:                     0.8
+  leg_left_5_joint:                     -0.4
+  leg_left_6_joint:                   0.0
+  leg_right_1_joint:                  0.0
+  leg_right_2_joint:                  0.0
+  leg_right_3_joint:                    -0.4
+  leg_right_4_joint:                    0.8
+  leg_right_5_joint:                    -0.4
+  leg_right_6_joint:                  0.0
+
+
+default_floating_base_pose:
+  orientation:
+    x: 0.
+    y: 0.
+    z: 0.
+    w: 1.
+  position: [0., 0., 1.03]
