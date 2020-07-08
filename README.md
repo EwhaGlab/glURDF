@@ -64,8 +64,9 @@ cd build/bin
 To run the demo of the talos robot motion, run the script below:
 ```sh
 cd build/bin
-./demo_talos
+./demo_talos [DEMO_SCENE]
 ```
+Currently, *ground*, *bridge*, and *stairs* demo scene available.
 
 Some keyboard inputs are available:
 - **WASD**: camera movement
