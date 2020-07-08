@@ -61,12 +61,22 @@ To visualize the robot, run the script below:
 cd build/bin
 ./glURDF
 ```
+You can try visualizing different robots by changing the filepaths.
+
 To run the demo of the talos robot motion, run the script below:
 ```sh
 cd build/bin
 ./demo_talos [DEMO_SCENE]
 ```
 Currently, *ground*, *bridge*, and *stairs* demo scene available.
+
+Or just say hi to talos and fetch!
+```sh
+cd build/bin
+./demo_talos_say_hi
+./demo_fe_say_hi
+```
+<img src="./img/demo_talos_say_hi.gif" width="460"> <img src="./img/demo_fetch_say_hi.gif" width="460">
 
 Some keyboard inputs are available:
 - **WASD**: camera movement
