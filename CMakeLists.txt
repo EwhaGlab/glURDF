@@ -39,6 +39,11 @@ macro(makeLink src dest target)
   add_custom_command(TARGET ${target} POST_BUILD COMMAND ${CMAKE_COMMAND} -E create_symlink ${src} ${dest}  DEPENDS  ${dest} COMMENT "mklink ${src} -> ${dest}")
 endmacro()
 
+# add executables
+set(DEMO_TALOS_SAY_HI "demo_talos_say_hi")
+add_executable(${DEMO_TALOS_SAY_HI} src/${DEMO_TALOS_SAY_HI}.cpp)
+target_link_libraries(${DEMO_TALOS_SAY_HI} ${LIBS} urdfdom_model)
+
 set(DEMO_TALOS "demo_talos")
 add_executable(${DEMO_TALOS} src/${DEMO_TALOS}.cpp)
 target_link_libraries(${DEMO_TALOS} ${LIBS} urdfdom_model)
@@ -46,6 +51,8 @@ target_link_libraries(${DEMO_TALOS} ${LIBS} urdfdom_model)
 set(glURDF "glURDF")
 add_executable(${glURDF} src/${glURDF}.cpp)
 target_link_libraries(${glURDF} ${LIBS} urdfdom_model)
+
+set_target_properties(${DEMO_TALOS_SAY_HI} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin")
 
 set_target_properties(${DEMO_TALOS} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin")
 
