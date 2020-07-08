@@ -70,4 +70,5 @@ cd build/bin
 Some keyboard inputs are available:
 - **WASD**: camera movement
 - **Q**: shadow ON/OFF
+- **arrow UP/DOWN**: brightness of the light
 - **space bar**: (only for the demo)replay the motion
