@@ -40,6 +40,10 @@ macro(makeLink src dest target)
 endmacro()
 
 # add executables
+set(DEMO_FETCH_SAY_HI "demo_fetch_say_hi")
+add_executable(${DEMO_FETCH_SAY_HI} src/${DEMO_FETCH_SAY_HI}.cpp)
+target_link_libraries(${DEMO_FETCH_SAY_HI} ${LIBS} urdfdom_model)
+
 set(DEMO_TALOS_SAY_HI "demo_talos_say_hi")
 add_executable(${DEMO_TALOS_SAY_HI} src/${DEMO_TALOS_SAY_HI}.cpp)
 target_link_libraries(${DEMO_TALOS_SAY_HI} ${LIBS} urdfdom_model)
@@ -51,6 +55,8 @@ target_link_libraries(${DEMO_TALOS} ${LIBS} urdfdom_model)
 set(glURDF "glURDF")
 add_executable(${glURDF} src/${glURDF}.cpp)
 target_link_libraries(${glURDF} ${LIBS} urdfdom_model)
+
+set_target_properties(${DEMO_FETCH_SAY_HI} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin")
 
 set_target_properties(${DEMO_TALOS_SAY_HI} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin")
 
