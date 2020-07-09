@@ -3,7 +3,7 @@
 
 <img src="./img/demo_talos.gif" width="600">
 
-glURDF is a graphical interface for visualizing robot model using URDF and OpenGL.
+glURDF is a graphical interface for visualizing robot models using URDF and OpenGL.
 This repository is based on [learnopengl](https://learnopengl.com), extended to read [urdf](http://wiki.ros.org/urdf) files.
 glURDF supports not only visualizing the robot model but also animating the robot motion with given robot configurations.
 
@@ -68,7 +68,7 @@ To run the demo of the talos robot motion, run the script below:
 cd build/bin
 ./demo_talos [DEMO_SCENE]
 ```
-Currently, *ground*, *bridge*, and *stairs* demo scene are available.
+Currently, *ground*, *bridge*, and *stairs* demo scenes are available.
 
 Or just say hi to talos and fetch!
 ```sh
@@ -82,4 +82,4 @@ Some keyboard inputs are available:
 - **WASD**: camera movement
 - **Q**: shadow ON/OFF
 - **arrow UP/DOWN**: brightness of the light
-- **space bar**: (only for the demo)replay the motion
+- **space bar**: (only for the demo) replay the motion
