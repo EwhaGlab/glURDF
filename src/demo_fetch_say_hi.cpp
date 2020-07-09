@@ -87,13 +87,10 @@ void addChildLinks(LinkConstSharedPtr link, shared_ptr<Model_> parent)
         // cout << (*child)->name << endl;  
         // cout << "xyz: " << x << y << z << endl;
 
-        // UNKNOWN 0  REVOLUTE 1  PRISMATIC 2  FLOATING 3  PLANAR 4  FIXED 5
-        if ((*child)->parent_joint->type) // only revolute joint available for now
-        { 
-            axis_x = (*child)->parent_joint->axis.x;
-            axis_y = (*child)->parent_joint->axis.y;
-            axis_z = (*child)->parent_joint->axis.z;
-        }            
+        // UNKNOWN 0  REVOLUTE 1 CONTINUOUS 2  PRISMATIC 3  FLOATING 4  PLANAR 5  FIXED 6
+        axis_x = (*child)->parent_joint->axis.x;
+        axis_y = (*child)->parent_joint->axis.y;
+        axis_z = (*child)->parent_joint->axis.z;
         glm::vec3 axis = glm::vec3(axis_x,axis_y,axis_z);
         
         if ((*child)->visual)
@@ -130,7 +127,7 @@ void addChildLinks(LinkConstSharedPtr link, shared_ptr<Model_> parent)
                     mat_name == "White";
 
                 glm::vec3 scale = glm::vec3(m->scale.x, m->scale.y, m->scale.z);
-                shared_ptr<Model_> child_node(new Model_ ((*child)->name, file_name, mat_name, joint_transmat, vis_transmat, scale, axis, parent));
+                shared_ptr<Model_> child_node(new Model_ ((*child)->name, file_name, mat_name, (*child)->parent_joint->type, joint_transmat, vis_transmat, scale, axis, parent));
                 if (mat_name == "" && (*child)->visual->material != nullptr)  child_node->color = glm::vec3((*child)->visual->material->color.r, (*child)->visual->material->color.g,(*child)->visual->material->color.b);
                 
                 meshes.push_back(child_node);
@@ -142,7 +139,7 @@ void addChildLinks(LinkConstSharedPtr link, shared_ptr<Model_> parent)
                 string file_name = "../../resources/objects/sphere.stl"; // HACKING !!!
                 
                 glm::vec3 scale = glm::vec3(m->radius, m->radius, m->radius);
-                shared_ptr<Model_> child_node(new Model_ ((*child)->name, file_name, mat_name,  joint_transmat, vis_transmat, scale, axis, parent));
+                shared_ptr<Model_> child_node(new Model_ ((*child)->name, file_name, mat_name, (*child)->parent_joint->type,  joint_transmat, vis_transmat, scale, axis, parent));
                 if (mat_name == "" && (*child)->visual->material != nullptr)  child_node->color = glm::vec3((*child)->visual->material->color.r, (*child)->visual->material->color.g,(*child)->visual->material->color.b);
 
                 meshes.push_back(child_node);
@@ -154,7 +151,7 @@ void addChildLinks(LinkConstSharedPtr link, shared_ptr<Model_> parent)
                 string file_name = "../../resources/objects/box.stl"; // HACKING !!!
                 
                 glm::vec3 scale = glm::vec3(m->dim.x, m->dim.y, m->dim.z);
-                shared_ptr<Model_> child_node(new Model_ ((*child)->name, file_name, mat_name,  joint_transmat, vis_transmat, scale, axis, parent));
+                shared_ptr<Model_> child_node(new Model_ ((*child)->name, file_name, mat_name, (*child)->parent_joint->type, joint_transmat, vis_transmat, scale, axis, parent));
                 if (mat_name == "" && (*child)->visual->material != nullptr)  child_node->color = glm::vec3((*child)->visual->material->color.r, (*child)->visual->material->color.g,(*child)->visual->material->color.b);
 
                 meshes.push_back(child_node);
@@ -166,7 +163,7 @@ void addChildLinks(LinkConstSharedPtr link, shared_ptr<Model_> parent)
                 string file_name = "../../resources/objects/cylinder.stl"; // HACKING !!!
                 
                 glm::vec3 scale = glm::vec3(m->radius, m->radius, m->length);
-                shared_ptr<Model_> child_node(new Model_ ((*child)->name, file_name, mat_name,  joint_transmat, vis_transmat, scale, axis, parent));
+                shared_ptr<Model_> child_node(new Model_ ((*child)->name, file_name, mat_name, (*child)->parent_joint->type,  joint_transmat, vis_transmat, scale, axis, parent));
                 if (mat_name == "" && (*child)->visual->material != nullptr)  child_node->color = glm::vec3((*child)->visual->material->color.r, (*child)->visual->material->color.g,(*child)->visual->material->color.b);
 
                 meshes.push_back(child_node);
@@ -307,7 +304,7 @@ int main(int argc, char** argv)
     std::string file_name = delimiter2 + token;
     glm::vec3 scale = glm::vec3(1.0f); glm::vec3 axis = glm::vec3(0.0f);
     
-    shared_ptr<Model_> root_node(new Model_ (link->name, file_name, link->visual->material->name, init, init, scale, axis, nullptr));
+    shared_ptr<Model_> root_node(new Model_ (link->name, file_name, link->visual->material->name, 0, init, init, scale, axis, nullptr));
     meshes.push_back(root_node);
     addChildLinks(link, root_node);
     
@@ -329,8 +326,6 @@ int main(int argc, char** argv)
     
     tick = 0;
     c = 0;
-
-    cout << meshes.size() << endl;
 
     // render loop
     // -----------
@@ -422,8 +417,11 @@ void renderScene(const Shader &shader, bool move)
         if (tick % MAX_TICK == 0 && c < configs.size())
         {
             if (meshes[i]->axis != glm::vec3(0.0f))
-            {   
-                meshes[i]->joint_transmat = glm::rotate(initTransMat[i], configs[c][cnt], meshes[i]->axis);  
+            {
+                if (meshes[i]->joint_type == 1) // revolute
+                    meshes[i]->joint_transmat = glm::rotate(initTransMat[i], configs[c][cnt], meshes[i]->axis);  
+                else if (meshes[i]->joint_type == 3) // prismatic
+                    meshes[i]->joint_transmat = glm::translate(initTransMat[i], configs[c][cnt]*meshes[i]->axis);  
                 cnt++;
             }
         }

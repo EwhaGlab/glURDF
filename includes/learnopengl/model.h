@@ -45,6 +45,7 @@ class Model_
 public:
     /*  Model Data */
     string name;
+    int joint_type;
     shared_ptr<Model_> parent;
     vector<Texture> textures_loaded;	// stores all the textures loaded so far, optimization to make sure textures aren't loaded more than once.
     vector<Mesh_> meshes;
@@ -58,9 +59,10 @@ public:
 
     /*  Functions   */
     // constructor, expects a filepath to a 3D model.
-    Model_(string name, string const &path, string material, glm::mat4 joint_transmat = glm::mat4(1.0f), glm::mat4 vis_transmat = glm::mat4(1.0f), glm::vec3 scale = glm::vec3(1.0), glm::vec3 axis = glm::vec3(0.0), shared_ptr<Model_> parent = nullptr, bool gamma = false) : gammaCorrection(gamma)
+    Model_(string name, string const &path, string material, int joint_type, glm::mat4 joint_transmat = glm::mat4(1.0f), glm::mat4 vis_transmat = glm::mat4(1.0f), glm::vec3 scale = glm::vec3(1.0), glm::vec3 axis = glm::vec3(0.0), shared_ptr<Model_> parent = nullptr, bool gamma = false) : gammaCorrection(gamma)
     {
         this->name = name;
+        this->joint_type = joint_type;
         this->joint_transmat = joint_transmat;
         this->vis_transmat = vis_transmat;
         this->scale = scale;
