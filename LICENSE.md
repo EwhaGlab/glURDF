@@ -13,6 +13,6 @@ Did some modification on the contents in the [header files](./includes/learnopen
 Did no modification.
 
 ## talos-data by Gepetto Research Group
-[This work](https://github.com/stack-of-tasks/talos-data) is licensed under a [GNU LESSER GENERAL PUBLIC LICENSE](https://www.gnu.org/licenses/lgpl-3.0.html).
+[This work](https://github.com/stack-of-tasks/talos-data) is licensed under a [GNU LESSER GENERAL PUBLIC LICENSE](https://github.com/stack-of-tasks/talos-data/blob/master/LICENSE).
 
 Did no modification.
