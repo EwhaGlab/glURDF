@@ -211,6 +211,7 @@ int main(int argc, char** argv)
                 if (i % len != 0)
                     config.push_back(stof(line));
                 else {
+                    config.push_back(stof(line));
                     configs.push_back(config);
                     config.clear();
                 }
