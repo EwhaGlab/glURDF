@@ -420,8 +420,6 @@ void renderScene(const Shader &shader, bool move)
     {          
         if (tick % MAX_TICK == 0 && c < configs.size())
         {
-            if (i == 0)
-                meshes[i]->joint_transmat = glm::translate(initTransMat[i], glm::vec3(configs[c][0],configs[c][1],configs[c][2]));  
             if (meshes[i]->axis != glm::vec3(0.0f))
             {   
                 meshes[i]->joint_transmat = glm::rotate(initTransMat[i], configs[c][cnt], meshes[i]->axis);  

@@ -55,6 +55,7 @@ float lastFrame = 0.0f;
 // configurations file
 vector<vector<float>> configs;
 vector<shared_ptr<Model_>> meshes;
+vector<shared_ptr<Model_>> scenes;
 vector<glm::mat4> initTransMat;
 const glm::mat4 init = glm::mat4(1.0f);
 
@@ -335,12 +336,14 @@ int main(int argc, char** argv)
         }        
         initTransMat.push_back(meshes[i]->joint_transmat);
     }    
-    // add a scene mesh at the last
+
+    // add a scene mesh. can be mutliple.
+    // ---------------------------------------
     shared_ptr<Model_> scene(new Model_ ("scene", scene_file_path, "LightGrey", init, init, glm::vec3(1.0), glm::vec3(1.0), nullptr));
     glm::mat4 tmp = glm::rotate(init, glm::radians(90.0f), glm::vec3(-1.0f,0.0f,0.0f));  
     tmp = glm::rotate(tmp, glm::radians(90.0f), glm::vec3(0.0f,0.0f,-1.0f));  
     scene->joint_transmat = tmp;
-    meshes.push_back(scene);
+    scenes.push_back(scene);
     
     tick = 0;
     c = 0;
@@ -429,13 +432,20 @@ void renderScene(const Shader &shader, bool move)
     glEnable(GL_CULL_FACE);
     
     // render scene
-    shader.setVec3("color", meshes[meshes.size()-1]->color);
-    shader.setMat4("model", meshes[meshes.size()-1]->joint_transmat);
-    meshes[meshes.size()-1]->Draw(shader);
-    
+    for (int i = 0; i < scenes.size(); i ++)
+    {
+        if (!scenes[i]->textures_loaded.empty())
+            shader.setInt("textures", 1);
+        else
+            shader.setInt("textures", 0);
+        shader.setVec3("color", scenes[i]->color);
+        shader.setMat4("model", scenes[i]->joint_transmat);
+        scenes[i]->Draw(shader);
+    }
+
     // render robot
     int cnt = 7; // HACKING!!
-    for (int i = 0; i < meshes.size()-1; i++)
+    for (int i = 0; i < meshes.size(); i++)
     {          
         if (tick % MAX_TICK == 0 && c < configs.size())
         {
