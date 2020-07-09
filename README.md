@@ -7,7 +7,7 @@ glURDF is a graphical interface for visualizing robot model using URDF and OpenG
 This repository is based on [learnopengl](https://learnopengl.com), extended to read [urdf](http://wiki.ros.org/urdf) files.
 glURDF supports not only visualizing the robot model but also animating the robot motion with given robot configurations.
 
-Currently, the robot description files given in this repository is from [fetch_ros](https://github.com/fetchrobotics/fetch_ros.git), and [talos-data](https://github.com/stack-of-tasks/talos-data.git).
+Currently, the robot description files given in this repository are from [fetch_ros](https://github.com/fetchrobotics/fetch_ros.git), and [talos-data](https://github.com/stack-of-tasks/talos-data.git).
 
 ## Dependencies
 glURDF depends on multiple packages and libraries. Please follow the procedure below to make sure you have installed all the dependencies.
@@ -68,13 +68,13 @@ To run the demo of the talos robot motion, run the script below:
 cd build/bin
 ./demo_talos [DEMO_SCENE]
 ```
-Currently, *ground*, *bridge*, and *stairs* demo scene available.
+Currently, *ground*, *bridge*, and *stairs* demo scene are available.
 
 Or just say hi to talos and fetch!
 ```sh
 cd build/bin
 ./demo_talos_say_hi
-./demo_fe_say_hi
+./demo_fetch_say_hi
 ```
 <img src="./img/demo_talos_say_hi.gif" width="400"> <img src="./img/demo_fetch_say_hi.gif" width="400">
 
