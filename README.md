@@ -48,8 +48,9 @@ glURDF depends on multiple packages and libraries. Please follow the procedure b
   ```
 
 ## Setup
-To compile, it is recommended to create a separate build directory:
+Clone the repository. To compile, it is recommended to create a separate build directory:
 ```sh
+git clone https://github.com/daeunSong/glURDF.git && cd glURDF
 mkdir build && cd build
 cmake ..
 make 
