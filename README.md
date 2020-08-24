@@ -7,8 +7,6 @@ glURDF is a graphical interface for visualizing robot models using URDF and Open
 This repository is based on [learnopengl](https://learnopengl.com), extended to read [urdf](http://wiki.ros.org/urdf) files.
 glURDF supports not only visualizing the robot model but also animating the robot motion with given robot configurations.
 
-Currently, the robot description files given in this repository are from [fetch_ros](https://github.com/fetchrobotics/fetch_ros.git), and [talos-data](https://github.com/stack-of-tasks/talos-data.git).
-
 ## Dependencies
 glURDF depends on multiple packages and libraries. Please follow the procedure below to make sure you have installed all the dependencies.
 - System tools
@@ -56,7 +54,9 @@ cmake ..
 make 
 ```
 
-## Run
+## Demo
+The demo uses the robot description files from [fetch_ros](https://github.com/fetchrobotics/fetch_ros.git), and [talos-data](https://github.com/stack-of-tasks/talos-data.git). Make sure you have them in resources folder.
+
 To visualize the robot, run the script below:
 ```sh
 cd build/bin
