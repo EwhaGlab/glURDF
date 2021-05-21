@@ -4,7 +4,7 @@
 <img src="./img/demo_talos.gif" width="600">
 
 glURDF is a graphical interface for visualizing robot models using URDF and OpenGL.
-This repository is based on [learnopengl](https://learnopengl.com), extended to read [urdf](http://wiki.ros.org/urdf) files.
+This repository is based on [learnopengl](https://learnopengl.com) by [Joey de Vries](https://twitter.com/JoeyDeVriez), extended to read [urdf](http://wiki.ros.org/urdf) files. Please refer to this [link](https://github.com/JoeyDeVries/LearnOpenGL/blob/master/LICENSE.md) for the license terms. 
 glURDF supports not only visualizing the robot model but also animating the robot motion with given robot configurations.
 
 ## Dependencies
@@ -71,7 +71,7 @@ cd build/bin
 ```
 Currently, *ground*, *bridge*, and *stairs* demo scenes are available.
 
-Or just say hi to talos and fetch!
+Or just say hi to talos and fetch! 👋
 ```sh
 cd build/bin
 ./demo_talos_say_hi
