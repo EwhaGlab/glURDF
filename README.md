@@ -55,7 +55,11 @@ make
 ```
 
 ## Demo
-The demo uses the robot description files from [fetch_ros](https://github.com/fetchrobotics/fetch_ros.git), and [talos-data](https://github.com/stack-of-tasks/talos-data.git). Make sure you have them in resources folder.
+The demo uses the robot description files from [fetch_ros](https://github.com/fetchrobotics/fetch_ros.git), and [talos-data](https://github.com/stack-of-tasks/talos-data.git). Make sure you have them in resources folder:
+```sh
+git clone https://github.com/fetchrobotics/fetch_ros.git resources/fetch_ros
+git clone https://github.com/stack-of-tasks/talos-data.git resources/talos_data
+```
 
 To visualize the robot, run the script below:
 ```sh

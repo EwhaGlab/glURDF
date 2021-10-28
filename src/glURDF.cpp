@@ -40,11 +40,11 @@ bool firstMouse = true;
 
 // file name
 const string delimiter1 = "://fetch_description/";
-const string delimiter2 = "../../resources/fetch_description/";
-const string urdf_file_path = "../../resources/fetch_description/urdf/fetch.urdf";
-// const string delimiter1 = "://talos_data/";
-// const string delimiter2 = "../../resources/talos_data/";
-// const string urdf_file_path = "../../resources/talos_data/urdf/talos_full.urdf";
+const string delimiter2 = "../../resources/fetch_ros/fetch_description/";
+const string urdf_file_path = "../../resources/fetch_ros/fetch_description/robots/fetch.urdf";
+//const string delimiter1 = "://talos_data/";
+//const string delimiter2 = "../../resources/talos_data/";
+//const string urdf_file_path = "../../resources/talos_data/urdf/talos_reduced.urdf";
 
 
 // timing
