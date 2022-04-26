@@ -88,3 +88,6 @@ Some keyboard inputs are available:
 - **Q**: shadow ON/OFF
 - **arrow UP/DOWN**: brightness of the light
 - **space bar**: (only for the demo) replay the motion
+
+## Credit
+- [Daeun Song](http://daeunsong.github.io), Ewha Womans University
